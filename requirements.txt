@@ -1,0 +1,7 @@
+apache-beam[gcp]==2.42.0
+google-auth
+requests
+certifi
+pandas
+PyOpenSSL
+urllib3
