@@ -1,6 +1,6 @@
-# realtime-dataflow
+# beam-python-streaming
 Apache beam Python SDK version 2.42. 
-Beam pipeline for CDP realtime usecase PoC - reads from pubsub > extracts required fields > send https request to vertexAI endpoint > send https request to tealium > writes data to BigQuery
+Beam pipeline for CDP realtime usecase - reads from pubsub > extracts required fields > send https request to vertexAI endpoint > send https request to tealium > writes data to BigQuery
 
 ## Command 
 ```
