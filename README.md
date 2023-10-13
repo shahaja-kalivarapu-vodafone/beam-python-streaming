@@ -14,7 +14,7 @@ python3 -m pubsub-bigquery-vertexai \
 --num_workers=6 \
 --max_num_workers=500 \
 --temp_location=gs://practice-project-bucket/dataflow/tmp/ \
---network=vpc-lm3-live-vpc \
+--network=practice-project-vpc \
 --subnetwork=regions/europe-west1/subnetworks/restricted-zone \
 --no_use_public_ips \
 --service_account_email=datafusion-worker-sa@practice-project.iam.gserviceaccount.com
